@@ -7,11 +7,17 @@
         <link rel="shortcut icon" href="img/unicornio.ico">
         <style>
             .container{
-                justify-content: center;
+                width: 100vw;
+                height: 100vh;
                 display: flex;
-                margin-top: -8px;
-                margin-left: -8px;
-                margin-right: -8px;
+                flex-direction: row;
+                justify-content: center;
+                margin-top: -10px;
+                
+            }
+            .box{
+                width: 1092px;
+                background-color: white;
             }
             .div_menu{
                 width: 98%;
@@ -56,32 +62,69 @@
                 background: #abcdef;
                 color: #fff;
             }
-            .banner_evento{
-                background-color: rgb(224, 28, 28);
-                
-               
+            .palestra{
+                background-color: white;
+                display: flex;
             }
-            .banner_empresa{
-                border-radius: 10px;
-                -webkit-border-radius: 10px;
-                moz-border-radius: 10px;
+            .alan{
+                width: 210px;
+                margin-left: 330px;
+                background-color: white;
+            }
+            .alantext{
+                width: 500px;
+                background-color: white;
+                text-align: justify;
+                margin-right: 10px;
+            }
+            .simara{
+                width: 800px;
+                
+            }
+            .simaratext{
+                width: 800px;
+                background-color: white;
+                margin-left: 60px;
+                text-align: justify;
+                margin-right: 10px;
             }
             .rodape{
-                background-color: rgb(62, 23, 235);
-                
+                background-color: rgb(65, 147, 240);
+                -webkit-text-fill-color: white;
+                text-align: center;
+                font-family: Arial, Helvetica, sans-serif;
             }
             .inscrever{
                 display: flex;
+            }
+            .texto{
+                margin-left: 9px;
+                margin-right: 9px;
+                width: 600px;
+            }
+            .propa{
+                text-align: center;
+                margin-left: 300px;
+                border-radius: 5px;
+                -webkit-border-radius: 15px;
+                moz-border-radius: 5px;
+                font-weight: bold;
+                background-color: rgb(52, 107, 209);
+                -webkit-text-fill-color: white;
+            }
+            .titulo{
+                text-align: center;
             }
         </style>
     </head>
     <body>
         <div class="container">
+            <div class="box">
             <div>
-                <div class="banner_empresa">
-                    <img src="img/banner.jpg" width="1024">
+                <div>
+                    <img src="img/unicornio.png" width="1092">
                 </div>
-            <div class="div_menu">
+            <!-- <div class="div_menu">
                 <div class="menu">
                     <ul>
                         <li><a href="#">Home</a></li>
@@ -91,28 +134,60 @@
                         <li><a href="#">Link 4</a></li>
                     </ul>
                 </div>
-            </div>
+            </div> -->
                 
             <div class="inscrever">
                 <div>
-                    <p>Fazendo um texto aqui para testar</p>
+                    <div>
+                        <img src="img/foguete.png" width="210">
+                    </div>
                 </div>
-                <div>
-                    <p>Fazendo um texto aqui para testar</p>
+                <div class="texto">
+                        <p>O mercado de startups vem crescendo cada vez mais no Brasil. Enquanto uma empresa tradicional tem um crescimento de cerca de 10% ao ano, uma startup cresce mais de 200%. O modelo de negócios inovador é um dos fatores responsáveis pelo progresso, e faz com que as pessoas queiram empreender. </p>
+
+                        <p>Nesse evento, nossos palestrantes irão apresentar sua visão de como foi fundar uma startup, bem como apontar quais foram os principais desafios e barreiras enfrentados. Depois, teremos uma roda de conversa, no qual os participantes poderão tirar suas dúvidas, além de fomentar o networking.</p>
+                        <div class="propa">
+                            <h1>COMPRE O SEU<br/>INGRESSO AQUI</h1> 
+                                
+                        </div>
                 </div>
-                <div>
-                    <p>Fazendo um texto aqui para testar</p>
-                </div>
-                <div id="sympla-widget-625603" height="260">
-                        
+        
+                
+                <div id="sympla-widget-626894" height="450">
                 </div> 
-                <script src="https://www.sympla.com.br/js/sympla.widget-pt.js/625603">
+                <script src="https://www.sympla.com.br/js/sympla.widget-pt.js/626894">
                 </script>        
             </div>
-                <div class="banner_evento">
-                    <img src="img/banner_evento.jpg" width="1024">
+            <div>
+                    <img src="img/barra.png" width="1092">
+            </div>
+            <div class="titulo"><h1>Quem são eles?</h1></div>
+            
+                <div class="palestra">
+                    
+                    <div class="alan">
+                        <img src="img/alan.png" width="200">
+                    </div>
+                    <div class="alantext">
+                        <p>Bacharel em Administração de Empresas, especialista em Gestão de Projetos pela FGV e ESPM, participou de uma imersão no Vale do Silício de empreendedorismo, inovação e criatividade pela Connect2valley e Coaching pela Tony Robbins. Atualmente CEO da Nerus Sales e fundador da Hayon. Tem a missão de criar estratégias simples e gerar resultados e desenvolvimentos todos os dias, criando uma atmosfera de crescimento, união de equipe e resultados rápidos.</p>
+                    </div>
                 </div>
-            <div class="rodape">D</div>
+                <div class="palestra">
+                        <div class="simaratext">
+                                <p>Bacharel em Administração de Empresas, especialista em Gestão de Projetos pela FGV e ESPM, participou de uma imersão no Vale do Silício de empreendedorismo, inovação e criatividade pela Connect2valley e Coaching pela Tony Robbins. Atualmente CEO da Nerus Sales e fundador da Hayon. Tem a missão de criar estratégias simples e gerar resultados e desenvolvimentos todos os dias, criando uma atmosfera de crescimento, união de equipe e resultados rápidos.</p>
+                            </div>
+                        <div class="simara">
+                            <img src="img/simara.png" width="200">
+                        </div>
+                        
+                    </div>
+            
+            <div class="rodape">
+                <p >De Pônei a Unicórnio</p>
+                <p>
+                        Somos um grupo de pessoas de diversas áreas apaixonados pelo mundo das startups! Nosso objetivo é reunir profissionais de startups, empreendedores, estudantes que desejam empreender interessados em aprender, trocar informações, compartilhar experiências, e discutir novidades do mercado.</div>
+                </p>
+            
             </div>
         </div>
     </body>
